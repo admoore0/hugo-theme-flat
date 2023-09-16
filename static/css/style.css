@@ -236,7 +236,7 @@ body {
 /* setup hyper link style */
 .header .site-title {
   text-decoration: none;
-  font-family: var(--fonts-serif);
+  font-family: var(--fonts-sans-en);
   font-size: var(--font-size-6);
   font-weight: bold;
 }
@@ -275,7 +275,7 @@ body {
 
 /* beautify menu item */
 .header .menu-item {
-  font-family: var(--fonts-serif);
+  font-family: var(--fonts-sans-en);
   font-size: var(--font-size-3);
   font-weight: bold;
 }
@@ -460,6 +460,7 @@ body {
 
   overflow: auto;
   width: 100%;
+  font-size: 11pt;
 }
 
 .content blockquote {

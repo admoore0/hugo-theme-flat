@@ -5,12 +5,16 @@
 
     <div class="tip">
         <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "2006/01/02" }}</time>
+        {{ if .Params.showWordCount }}
         <span class="split">·</span>
         <span> {{ .WordCount }} words </span>
+        {{ end }}
+        {{ if .Params.showReadTime }}
         <span class="split">·</span>
         <span>
             {{ .ReadingTime }} minutes to read
         </span>
+        {{end}}
     </div>
 
     <div class="taxonomies">
