@@ -460,7 +460,8 @@ body {
 
   overflow: auto;
   width: 100%;
-  font-size: 11pt;
+  font-size: var(--font-size-1);
+  tab-size: 4;
 }
 
 .content blockquote {
